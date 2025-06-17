@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: webpage-analyzer
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"

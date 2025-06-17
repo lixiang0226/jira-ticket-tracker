@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Webpage Analyzer</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f4f8;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    textarea, pre {
+      width: 100%;
+      box-sizing: border-box;
+      font-family: monospace;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    textarea {
+      height: 120px;
+    }
+
+    pre {
+      background-color: #fff;
+      height: 300px;
+      overflow-y: auto;
+    }
+
+    button {
+      display: block;
+      margin: 15px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    .result-title {
+      font-weight: bold;
+      margin-top: 20px;
+      color: #34495e;
+    }
+  </style>
+</head>
+<body>
+<h1>Webpage Analyzer</h1>
+<label for="urlInput">Enter URLs (one per line):</label>
+<textarea id="urlInput" placeholder="https://example.com&#10;https://another-site.com"></textarea>
+<button onclick="analyzeUrls()">Analyze URLs</button>
+
+<div class="result-title">Results:</div>
+<pre id="resultsOutput">[Waiting for input...]</pre>
+
+<script>
+    async function analyzeUrls() {
+      const input = document.getElementById("urlInput").value.trim();
+      const output = document.getElementById("resultsOutput");
+      if (!input) {
+        alert("Please enter one or more URLs.");
+        return;
+      }
+
+      output.textContent = "⏳ Analyzing, please wait...";
+
+      try {
+        const response = await fetch("/analyze", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ urls: input.split("\n") }),
+        });
+
+        if (!response.ok) {
+          throw new Error("Server error occurred.");
+        }
+
+        const results = await response.json();
+        output.textContent = results.map(res => {
+          return [
+            `URL: ${res[0]}`,
+            `Partner Status: ${res[1]}`,
+            `Partner List URL: ${res[2]}`,
+            `LeadID Token: ${res[3]}`,
+            `TrustedForm Embed: ${res[4]}`,
+            `Embed Check: ${res[5]}`,
+            `Privacy Policy Contact Email: ${res[6]}`,
+            `Privacy Policy Last Updated Date: ${res[7]}`,
+            `Privacy Policy CCPA Info: ${res[8]}`,
+            `Privacy Policy URL: ${res[9]}`,
+            `Terms & Conditions Last Updated Date: ${res[10]}`,
+            `Terms & Conditions URL: ${res[11]}`,
+            "----------------------------------------"
+          ].join("\n");
+        }).join("\n\n");
+      } catch (error) {
+        output.textContent = `❌ Error: ${error.message}`;
+      }
+    }
+  </script>
+</body>
+</html>

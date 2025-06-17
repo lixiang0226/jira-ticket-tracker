@@ -1,0 +1,459 @@
+2025-06-03 10:04:28,746 - INFO - Initializing Chrome WebDriver...
+2025-06-03 10:04:28,747 - INFO - ====== WebDriver manager ======
+2025-06-03 10:04:28,969 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 10:04:29,002 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 10:04:29,031 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 10:04:30,029 - INFO - WebDriver initialized successfully.
+2025-06-03 10:04:30,029 - INFO - Processing URL: https://quotekings.com/
+2025-06-03 10:04:30,423 - WARNING - leadid_token element not found.
+2025-06-03 10:04:30,435 - WARNING - TrustedForm script element not found.
+2025-06-03 10:04:30,637 - INFO - Navigating to Privacy Policy: https://quotekings.com/privacy.html
+2025-06-03 10:04:30,716 - INFO - Privacy policy date found: May 5, 2025
+2025-06-03 10:04:30,752 - INFO - Navigating to Terms and Conditions: https://quotekings.com/terms.html
+2025-06-03 10:04:30,819 - INFO - No contact info found in T&C with common patterns.
+2025-06-03 10:04:30,888 - INFO - WebDriver closed.
+2025-06-03 10:15:44,306 - INFO - ====== WebDriver manager ======
+2025-06-03 10:15:44,535 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 10:15:44,570 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 10:15:44,591 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 10:15:45,597 - INFO - Analyzing URL: https://quotekings.com/https://quotekings.com/
+2025-06-03 10:15:47,732 - ERROR - Error extracting leadid_token: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="leadid_token"]"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001047fe654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001047f68c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010434a714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001043917c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001043d2de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001043859c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x00000001047c2278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x00000001047c550c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x00000001047a3a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x00000001047c5d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000104794d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001047e5d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001047e5eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001047f6514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-03 10:15:47,743 - WARNING - TrustedForm script element not found with common patterns.
+2025-06-03 10:44:53,120 - INFO - ====== WebDriver manager ======
+2025-06-03 10:44:53,342 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 10:44:53,396 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 10:44:53,425 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 11:29:51,396 - INFO - ====== WebDriver manager ======
+2025-06-03 11:29:55,113 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:29:55,171 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:29:55,196 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 11:38:13,956 - INFO - ====== WebDriver manager ======
+2025-06-03 11:38:14,139 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:38:14,170 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:38:14,196 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 11:44:23,854 - INFO - ====== WebDriver manager ======
+2025-06-03 11:44:24,110 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:44:24,166 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:44:24,190 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 11:46:52,683 - INFO - ====== WebDriver manager ======
+2025-06-03 11:46:52,877 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:46:52,907 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:46:52,934 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 11:52:59,500 - INFO - ====== WebDriver manager ======
+2025-06-03 11:52:59,790 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:52:59,816 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:52:59,840 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 11:54:08,196 - INFO - ====== WebDriver manager ======
+2025-06-03 11:54:08,454 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:54:08,516 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 11:54:08,541 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 12:05:51,677 - INFO - ====== WebDriver manager ======
+2025-06-03 12:05:51,909 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 12:05:51,939 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 12:05:51,962 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 12:08:02,284 - INFO - ====== WebDriver manager ======
+2025-06-03 12:08:02,530 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 12:08:02,568 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 12:08:02,593 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 12:10:24,289 - INFO - ====== WebDriver manager ======
+2025-06-03 12:10:24,499 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 12:10:24,527 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 12:10:24,562 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 12:11:35,952 - INFO - ====== WebDriver manager ======
+2025-06-03 12:11:36,146 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 12:11:36,178 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 12:11:36,201 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 15:17:23,819 - INFO - ====== WebDriver manager ======
+2025-06-03 15:17:24,104 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 15:17:24,147 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 15:17:24,173 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 15:18:49,007 - INFO - ====== WebDriver manager ======
+2025-06-03 15:18:49,235 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 15:18:49,265 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 15:18:49,288 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 15:28:31,207 - INFO - ====== WebDriver manager ======
+2025-06-03 15:28:31,455 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 15:28:31,486 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 15:28:31,511 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 15:37:32,634 - ERROR - WebDriver Error: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-03 15:40:09,883 - ERROR - WebDriver Error: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-03 15:41:05,223 - ERROR - WebDriver Error: Message: Service /opt/homebrew/bin/chromedriver unexpectedly exited. Status code was: -9
+
+2025-06-03 15:41:58,315 - ERROR - WebDriver Error: Message: Can not connect to the Service /opt/homebrew/bin/chromedriver
+
+2025-06-03 15:42:09,273 - ERROR - WebDriver Error: Message: Service /opt/homebrew/bin/chromedriver unexpectedly exited. Status code was: -9
+
+2025-06-03 15:42:10,410 - ERROR - WebDriver Error: Message: Service /opt/homebrew/bin/chromedriver unexpectedly exited. Status code was: -9
+
+2025-06-03 15:42:16,746 - INFO - Analyzing URL: https://quotekings.com/terms.html
+2025-06-03 15:42:34,625 - INFO - Analyzing URL: https://quotekings.com/terms.html
+2025-06-03 15:44:54,865 - INFO - Analyzing URL: https://quotekings.com/terms.html
+2025-06-03 15:45:11,356 - INFO - Analyzing URL: https://quotekings.com/terms.html
+2025-06-03 15:45:37,399 - INFO - Analyzing URL: https://quotekings.com/terms.html
+2025-06-03 15:46:17,699 - INFO - Analyzing URL: https://quotekings.com/terms.html
+2025-06-03 15:46:18,175 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="leadid_token"]"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104a22654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000104a1a8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010456e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001045b57c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001045f6de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001045a99c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x00000001049e6278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x00000001049e950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x00000001049c7a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x00000001049e9d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x00000001049b8d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000104a09d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000104a09eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000104a1a514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-03 15:47:16,358 - INFO - Analyzing URL: https://quotekings.com/terms.html
+2025-06-03 15:47:16,899 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="leadid_token"]"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100626654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x000000010061e8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000100172714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001001b97c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001001fade8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001001ad9c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x00000001005ea278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x00000001005ed50c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x00000001005cba64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x00000001005edd94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x00000001005bcd58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x000000010060dd60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x000000010060deec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x000000010061e514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-03 15:49:56,272 - INFO - ====== WebDriver manager ======
+2025-06-03 15:49:56,483 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 15:49:56,514 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 15:49:56,538 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 15:59:45,826 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-03 15:59:47,377 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//script[@src='https://cdn.trustedform.com/trustedform-1.10.8.js']"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102cd2654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000102cca8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010281e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001028657c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001028a6de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001028599c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000102c96278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000102c9950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000102c77a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000102c99d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000102c68d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000102cb9d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000102cb9eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000102cca514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-03 16:00:12,467 - INFO - ====== WebDriver manager ======
+2025-06-03 16:00:12,669 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 16:00:12,697 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-03 16:00:12,723 - INFO - Driver [/Users/leigh/.wdm/drivers/chromedriver/mac64/137.0.7151.68/chromedriver-mac-arm64/chromedriver] found in cache
+2025-06-03 16:11:28,542 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-03 16:13:58,868 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-03 16:14:00,438 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//script[@src='https://cdn.trustedform.com/trustedform-1.10.8.js']"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001027da654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001027d28c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000102326714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x000000010236d7c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001023aede8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001023619c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x000000010279e278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x00000001027a150c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x000000010277fa64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x00000001027a1d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000102770d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001027c1d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001027c1eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001027d2514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-03 16:15:03,977 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-03 16:16:15,560 - INFO - Analyzing URL: --------------------------------------------------------------------------------
+2025-06-03 16:16:15,566 - ERROR - Error analyzing --------------------------------------------------------------------------------: Message: invalid argument
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+0   chromedriver                        0x0000000100d0e654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000100d068c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010085a588 cxxbridge1$string$len + 90032
+3   chromedriver                        0x0000000100844dfc cxxbridge1$string$len + 2084
+4   chromedriver                        0x000000010084310c chromedriver + 192780
+5   chromedriver                        0x0000000100843b90 chromedriver + 195472
+6   chromedriver                        0x000000010085d778 cxxbridge1$string$len + 102816
+7   chromedriver                        0x00000001008e3870 cxxbridge1$string$len + 651928
+8   chromedriver                        0x00000001008e2de8 cxxbridge1$string$len + 649232
+9   chromedriver                        0x00000001008959c8 cxxbridge1$string$len + 332784
+10  chromedriver                        0x0000000100cd2278 cxxbridge1$str$ptr + 2476360
+11  chromedriver                        0x0000000100cd550c cxxbridge1$str$ptr + 2489308
+12  chromedriver                        0x0000000100cb3a64 cxxbridge1$str$ptr + 2351412
+13  chromedriver                        0x0000000100cd5d94 cxxbridge1$str$ptr + 2491492
+14  chromedriver                        0x0000000100ca4d58 cxxbridge1$str$ptr + 2290728
+15  chromedriver                        0x0000000100cf5d60 cxxbridge1$str$ptr + 2622512
+16  chromedriver                        0x0000000100cf5eec cxxbridge1$str$ptr + 2622908
+17  chromedriver                        0x0000000100d06514 cxxbridge1$str$ptr + 2690020
+18  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+19  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-04 09:35:56,857 - INFO - Analyzing URL: https://homewindowpros.net/
+2025-06-04 09:42:09,613 - INFO - Analyzing URL: https://homewindowpros.net/
+2025-06-04 09:47:22,605 - INFO - Analyzing URL: assistance-info.org
+2025-06-04 09:47:22,606 - ERROR - Error analyzing assistance-info.org: Message: invalid argument
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+0   chromedriver                        0x0000000104eb6654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000104eae8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000104a02588 cxxbridge1$string$len + 90032
+3   chromedriver                        0x00000001049ecdfc cxxbridge1$string$len + 2084
+4   chromedriver                        0x00000001049eb10c chromedriver + 192780
+5   chromedriver                        0x00000001049ebb90 chromedriver + 195472
+6   chromedriver                        0x0000000104a05778 cxxbridge1$string$len + 102816
+7   chromedriver                        0x0000000104a8b870 cxxbridge1$string$len + 651928
+8   chromedriver                        0x0000000104a8ade8 cxxbridge1$string$len + 649232
+9   chromedriver                        0x0000000104a3d9c8 cxxbridge1$string$len + 332784
+10  chromedriver                        0x0000000104e7a278 cxxbridge1$str$ptr + 2476360
+11  chromedriver                        0x0000000104e7d50c cxxbridge1$str$ptr + 2489308
+12  chromedriver                        0x0000000104e5ba64 cxxbridge1$str$ptr + 2351412
+13  chromedriver                        0x0000000104e7dd94 cxxbridge1$str$ptr + 2491492
+14  chromedriver                        0x0000000104e4cd58 cxxbridge1$str$ptr + 2290728
+15  chromedriver                        0x0000000104e9dd60 cxxbridge1$str$ptr + 2622512
+16  chromedriver                        0x0000000104e9deec cxxbridge1$str$ptr + 2622908
+17  chromedriver                        0x0000000104eae514 cxxbridge1$str$ptr + 2690020
+18  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+19  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-04 09:47:25,159 - INFO - Analyzing URL: assistance-info.org
+2025-06-04 09:47:25,161 - ERROR - Error analyzing assistance-info.org: Message: invalid argument
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+0   chromedriver                        0x00000001032da654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001032d28c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000102e26588 cxxbridge1$string$len + 90032
+3   chromedriver                        0x0000000102e10dfc cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000102e0f10c chromedriver + 192780
+5   chromedriver                        0x0000000102e0fb90 chromedriver + 195472
+6   chromedriver                        0x0000000102e29778 cxxbridge1$string$len + 102816
+7   chromedriver                        0x0000000102eaf870 cxxbridge1$string$len + 651928
+8   chromedriver                        0x0000000102eaede8 cxxbridge1$string$len + 649232
+9   chromedriver                        0x0000000102e619c8 cxxbridge1$string$len + 332784
+10  chromedriver                        0x000000010329e278 cxxbridge1$str$ptr + 2476360
+11  chromedriver                        0x00000001032a150c cxxbridge1$str$ptr + 2489308
+12  chromedriver                        0x000000010327fa64 cxxbridge1$str$ptr + 2351412
+13  chromedriver                        0x00000001032a1d94 cxxbridge1$str$ptr + 2491492
+14  chromedriver                        0x0000000103270d58 cxxbridge1$str$ptr + 2290728
+15  chromedriver                        0x00000001032c1d60 cxxbridge1$str$ptr + 2622512
+16  chromedriver                        0x00000001032c1eec cxxbridge1$str$ptr + 2622908
+17  chromedriver                        0x00000001032d2514 cxxbridge1$str$ptr + 2690020
+18  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+19  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-04 09:47:41,329 - INFO - Analyzing URL: assistance-info.org
+2025-06-04 09:47:44,515 - INFO - Analyzing URL: assistance-info.org
+2025-06-04 09:48:28,738 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 09:48:32,982 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 09:48:34,431 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="leadid_token"]"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001046da654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001046d28c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000104226714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x000000010426d7c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001042aede8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001042619c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x000000010469e278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x00000001046a150c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x000000010467fa64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x00000001046a1d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000104670d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001046c1d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001046c1eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001046d2514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-04 09:52:41,103 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 09:57:30,806 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 09:58:46,577 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 09:58:46,879 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 10:02:45,087 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 10:04:11,971 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 10:08:08,000 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 10:23:04,850 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 10:28:16,235 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 10:28:17,771 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="leadid_token"]"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001045d2654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001045ca8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010411e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001041657c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001041a6de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001041599c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000104596278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x000000010459950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000104577a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000104599d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000104568d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001045b9d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001045b9eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001045ca514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-04 10:47:44,861 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 10:47:46,348 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="leadid_token"]"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102552654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x000000010254a8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010209e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001020e57c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000102126de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001020d99c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000102516278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x000000010251950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x00000001024f7a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000102519d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x00000001024e8d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000102539d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000102539eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x000000010254a514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-04 10:48:44,279 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 10:48:45,657 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="leadid_token"]"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001031d2654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001031ca8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000102d1e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000102d657c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000102da6de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x0000000102d599c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000103196278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x000000010319950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000103177a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000103199d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000103168d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001031b9d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001031b9eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001031ca514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-04 11:09:13,900 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 11:09:15,536 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//script[@src='https://cdn.trustedform.com/trustedform-1.10.8.js']"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102e66654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000102e5e8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x00000001029b2714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001029f97c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000102a3ade8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001029ed9c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000102e2a278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000102e2d50c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000102e0ba64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000102e2dd94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000102dfcd58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000102e4dd60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000102e4deec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000102e5e514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-04 11:09:23,226 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 11:29:33,688 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 11:29:35,267 - ERROR - Error extracting leadid_token or TrustedForm embed link: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//script[@src='https://cdn.trustedform.com/trustedform-1.10.8.js']"}
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104e8a654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000104e828c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x00000001049d6714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000104a1d7c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000104a5ede8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x0000000104a119c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000104e4e278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000104e5150c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000104e2fa64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000104e51d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000104e20d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000104e71d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000104e71eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000104e82514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x00000001859cffa8 _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001859cada0 thread_start + 8
+
+2025-06-04 13:03:57,887 - INFO - Analyzing URL: https://assistance-info.org/tc/
+2025-06-04 13:04:44,111 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 13:04:49,646 - ERROR - Error analyzing https://solareligibility.org/: name 'trustedform_embed_link' is not defined
+2025-06-04 13:05:36,993 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 13:06:16,951 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 13:52:21,429 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 13:53:56,746 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 14:02:08,991 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 14:02:27,388 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 14:04:17,469 - INFO - Analyzing URL: https://quotekings.com/terms.html
+2025-06-04 14:05:06,963 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 14:08:24,833 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 14:10:11,632 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 14:11:16,795 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 14:11:25,232 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 14:20:54,615 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 14:20:58,229 - INFO - Found potential T&C link: https://solareligibility.org/terms.html
+2025-06-04 14:20:58,338 - INFO - Found date: 2022-03-21 in T&C content from https://solareligibility.org/terms.html
+2025-06-04 14:21:27,734 - INFO - Analyzing URL: https://assistance-info.org/
+2025-06-04 14:21:31,020 - INFO - Found potential T&C link: https://assistance-info.org/tc/
+2025-06-04 14:21:31,190 - INFO - Date not found in T&C content from https://assistance-info.org/tc/
+2025-06-04 14:24:55,434 - INFO - Analyzing URL: https://solareligibility.org/
+2025-06-04 14:24:59,119 - INFO - Found potential T&C link: https://solareligibility.org/terms.html
+2025-06-04 14:24:59,225 - INFO - Found date: 2022-03-21 in T&C content from https://solareligibility.org/terms.html
+2025-06-04 14:25:05,640 - INFO - Analyzing URL: https://assistance-info.org/tc/
+2025-06-04 14:25:08,905 - INFO - Found potential T&C link: https://assistance-info.org/tc/
+2025-06-04 14:25:09,146 - INFO - Date not found in T&C content from https://assistance-info.org/tc/
+2025-06-04 14:34:49,763 - INFO - Analyzing URL: https://assistance-info.org/tc/
+2025-06-04 14:34:53,170 - INFO - Found potential T&C link: https://assistance-info.org/tc/
+2025-06-04 14:54:08,818 - INFO - Analyzing URL: https://assistance-info.org/tc/
+2025-06-04 14:54:12,145 - INFO - Found potential T&C link: https://assistance-info.org/tc/
+2025-06-04 14:54:36,635 - INFO - Analyzing URL: https://assistance-info.org/tc/
+2025-06-04 14:54:39,947 - INFO - Found potential T&C link: https://assistance-info.org/tc/
+2025-06-04 14:58:26,576 - INFO - Analyzing URL: https://assistance-info.org/tc/
+2025-06-04 14:58:29,802 - INFO - Found potential T&C link: https://assistance-info.org/tc/
+2025-06-04 14:58:57,665 - INFO - Analyzing URL: https://assistance-info.org/tc/
+2025-06-04 14:59:00,901 - INFO - Found potential T&C link: https://assistance-info.org/tc/

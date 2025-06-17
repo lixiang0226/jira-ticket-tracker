@@ -1,0 +1,192 @@
+/* --- Basic Setup & Fonts --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f5f7;
+    margin: 0;
+    color: #172B4D;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* --- Header & Search --- */
+.app-header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #dfe1e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#search-box {
+    padding: 0.5rem;
+    border: 1px solid #dfe1e6;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 1rem;
+}
+
+/* --- Main Layout --- */
+.main-content {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.ticket-list-container {
+    flex: 2; /* Takes up 2/3 of the space */
+    padding: 2rem;
+    overflow-y: auto;
+    border-right: 1px solid #dfe1e6;
+}
+
+.ticket-detail-container {
+    flex: 1; /* Takes up 1/3 of the space */
+    padding: 2rem;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+/* --- Ticket Timeline Item --- */
+.ticket-item {
+    margin-bottom: 3rem;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.ticket-item:hover {
+    background-color: #ebecf0;
+}
+
+.ticket-item.active {
+    background-color: #e9f2ff;
+    border: 1px solid #0052cc;
+}
+
+.ticket-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.timeline {
+    position: relative;
+    height: 20px;
+}
+
+.timeline-bar {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    height: 4px;
+    transform: translateY(-50%);
+    background-color: #dfe1e6; /* Default color */
+}
+
+/* Timeline Colors */
+.ticket-item.status-done .timeline-bar { background-color: #36b37e; }
+.ticket-item.status-blocked .timeline-bar { background-color: #ff5630; }
+.ticket-item.status-inprogress .timeline-bar { background-color: #ffab00; }
+
+.timeline-dot {
+    position: absolute;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    border: 3px solid #dfe1e6;
+}
+
+/* Dot Colors */
+.ticket-item.status-done .timeline-dot { border-color: #36b37e; }
+.ticket-item.status-blocked .timeline-dot { border-color: #ff5630; }
+.ticket-item.status-inprogress .timeline-dot { border-color: #ffab00; }
+
+.dot-start { left: 0; }
+.dot-middle { left: 50%; transform: translate(-50%, -50%); }
+.dot-end { right: 0; }
+
+/* The clever half-circle dot from your mockup */
+.dot-middle.half-approved {
+    background: linear-gradient(to right, #36b37e 50%, #dfe1e6 50%);
+    border-color: #5e6c84;
+}
+.dot-middle.full-approved {
+    background-color: #36b37e;
+}
+
+
+.timeline-label {
+    position: absolute;
+    font-size: 0.8rem;
+    color: #5e6c84;
+    white-space: nowrap;
+}
+
+.label-start { top: 20px; left: 0; }
+.label-middle { bottom: 20px; left: 50%; transform: translateX(-50%);}
+.label-end { top: 20px; right: 0; text-align: right;}
+
+/* --- Ticket Detail View --- */
+.ticket-detail-container .placeholder {
+    color: #5e6c84;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#detail-header h2 {
+    margin-top: 0;
+}
+
+#detail-pills {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.pill {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.pill.status-done { background-color: #e3fcef; color: #006644; }
+.pill.status-inprogress { background-color: #fff0b3; color: #974f0c; }
+.pill.status-blocked { background-color: #ffebe6; color: #bf2600; }
+.pill.status-approved { background-color: #e3fcef; color: #006644; }
+.pill.status-pending { background-color: #deebff; color: #0747a6; }
+.pill.status-not-started { background-color: #dfe1e6; color: #42526e; }
+
+#comments-container h3 {
+    border-bottom: 1px solid #dfe1e6;
+    padding-bottom: 0.5rem;
+}
+
+.comment-item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f4f5f7;
+}
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.comment-author { font-weight: 600; }
+.comment-date { color: #5e6c84; }
+.comment-body {
+    line-height: 1.5;
+}
